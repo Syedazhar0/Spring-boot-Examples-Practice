@@ -1,0 +1,30 @@
+2024-06-01T21:08:58.731+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] c.t.d.Demo3SpringdatajapaApplication     : Starting Demo3SpringdatajapaApplication using Java 17.0.10 with PID 18380 (D:\SpringBoot Tool Suit examples\demo-3-springdatajapa\target\classes started by kings in D:\SpringBoot Tool Suit examples\demo-3-springdatajapa)
+2024-06-01T21:08:58.736+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] c.t.d.Demo3SpringdatajapaApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T21:08:58.784+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-01T21:08:58.784+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-01T21:08:59.311+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T21:08:59.355+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-06-01T21:08:59.709+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1005 (http)
+2024-06-01T21:08:59.717+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-01T21:08:59.717+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-01T21:08:59.754+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-01T21:08:59.755+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 970 ms
+2024-06-01T21:08:59.860+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T21:08:59.896+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-01T21:08:59.919+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T21:09:00.131+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T21:09:00.153+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-01T21:09:00.433+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@716bf424
+2024-06-01T21:09:00.437+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-01T21:09:01.260+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01T21:09:01.308+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T21:09:01.589+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-01T21:09:01.892+05:30  WARN 18380 --- [demo-3-springdatajapa] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T21:09:01.911+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-01T21:09:02.170+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-01T21:09:02.203+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1005 (http) with context path '/'
+2024-06-01T21:09:02.210+05:30  INFO 18380 --- [demo-3-springdatajapa] [restartedMain] c.t.d.Demo3SpringdatajapaApplication     : Started Demo3SpringdatajapaApplication in 3.795 seconds (process running for 4.428)
+2024-06-01T21:09:37.613+05:30  INFO 18380 --- [demo-3-springdatajapa] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-01T21:09:37.628+05:30  INFO 18380 --- [demo-3-springdatajapa] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T21:09:37.631+05:30  INFO 18380 --- [demo-3-springdatajapa] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-01T21:09:37.641+05:30  INFO 18380 --- [demo-3-springdatajapa] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

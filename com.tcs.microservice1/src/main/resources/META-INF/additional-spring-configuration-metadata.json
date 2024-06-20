@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "management.health.circuitbreaker.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.health.circuitbreaker.enabled'"
+  },
+  {
+    "name": "zipkin.tracing.endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'zipkin.tracing.endpoint'"
+  }
+]}

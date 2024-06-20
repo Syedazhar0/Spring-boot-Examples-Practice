@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://tse1.mm.bing.net/th?id=OIP.7mAjle8cGiJ_btECjoG-wAHaEK&pid=Api&P=0&h=180');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            background-color: #0f0f0f; 
+        }
+        .table-responsive {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            background-color: #fff; 
+        }
+        th, td {
+            text-align: center;
+            vertical-align: middle !important;
+        }
+        .btn-add-product {
+            margin-bottom: 20px;
+        }
+        
+     
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff; 
+        }
+
+       
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <a href="/api/products" class="btn btn-primary btn-add-product">List Of Product</a>
+    <a href="/api/new-product" class="btn btn-primary btn-add-product">Add Product</a>
+    <div class="row">
+        <div class="col">
+            <h1 class="mb-4">Product List</h1>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Brand</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="product : ${listOfProducts}">
+                            <td th:text="${product.id}"></td>
+                            <td th:text="${product.pname}"></td>
+                            <td th:text="${product.price}"></td>
+                            <td th:text="${product.pbrand}"></td>
+                            <td>
+								<a th:href="@{'/api/editForm/' + ${product.id}}" class="btn btn-info">Edit</a>
+								<a th:href="@{'/api/products/delete/' + ${product.id}}" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
